@@ -1,0 +1,52 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.table-container {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th,
+td {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+}
+
+th {
+  cursor: pointer;
+  background-color: #929c92;
+  color: white;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 16px;
+  border: none;
+  background-color: #e8ebee;
+  color: white;
+  cursor: pointer;
+}
+
+button.active {
+  background-color: #96a4b3;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
